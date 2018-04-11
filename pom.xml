@@ -7,8 +7,8 @@
     <packaging>war</packaging>
     <version>1.0</version>
     <name>SampleApp</name>
-    
-    <proxies>
+    <settings> 
+      <proxies>
 	<proxy>
            <active>true</active>
 	   <protocol>https</protocol>
@@ -17,8 +17,8 @@
 	   <username></username>
 	   <password></password>
         </proxy>
-    </proxies 
-
+      </proxies 
+    </settings> 
 
 
     <properties>
