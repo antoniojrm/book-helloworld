@@ -7,7 +7,20 @@
     <packaging>war</packaging>
     <version>1.0</version>
     <name>SampleApp</name>
-  
+    
+    <proxies>
+	<proxy>
+           <active>true</active>
+	   <protocol>https</protocol>
+	   <host>172.16.236.20</host>
+	   <port>8080</port>
+	   <username></username>
+	   <password></password>
+        </proxy>
+    </proxies 
+
+
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
